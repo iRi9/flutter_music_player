@@ -1,0 +1,35 @@
+name: musicplayerapp
+description: UI Design exploration
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Lovina
+      fonts:
+        - asset: fonts/BeautifulLovina-Regular.ttf
+    - family: CoralPen
+      fonts:
+        - asset: fonts/CoralPen.ttf
+    - family: Campton_Light
+      fonts:
+        - asset: fonts/Campton_Light.ttf
+
